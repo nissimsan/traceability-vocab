@@ -1,0 +1,17 @@
+{
+  "$id": "https://w3id.org/traceability/schemas/TransportDocument.json",
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$comment": "{\"term\": \"TransportDocument\", \"@id\": \"https://api.swaggerhub.com/domains/dcsaorg/DCSA_DOMAIN/1.0.1#/components/schemas/transportDocument\"}",
+  "title": "Transport Document",
+  "description": "The document that governs the terms of carriage between shipper and carrier for maritime transportation. Two distinct types of transport documents exist: Bill of Lading, Sea Waybill.",
+  "type": "object",
+  "properties": {
+    "shippingInstruction": {
+      "$comment": "{\"term\": \"shippingInstruction\", \"@id\": \"https://api.swaggerhub.com/domains/dcsaorg/DCSA_DOMAIN/1.0.1#/components/schemas/shippingInstruction\"}",
+      "title": "Shipping Instruction",
+      "description": "The Shipping Instruction is an enrichment to the original booking shared by the shipper to the carrier. The shipping instruction includes volume or weight, cargo items, shipping dates, origin, destination, and other special instructions. The information given by the shipper through the shipping instruction is the information required to create a Transport Document.",
+      "$ref": "https://w3id.org/traceability/schemas/CargoItem.json"
+    }
+  },
+  "required": ["shippingInstruction"]
+}

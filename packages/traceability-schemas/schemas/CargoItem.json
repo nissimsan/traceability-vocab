@@ -1,7 +1,7 @@
 {
   "$id": "https://w3id.org/traceability/schemas/CargoItem.json",
   "$schema": "https://json-schema.org/draft-07/schema#",
-  "$comment": "{\"term\": \"CargoItem\", \"@id\": \"https://api.swaggerhub.com/domains/dcsaorg/DCSA_DOMAIN/1.0.1#/components/schemas/cargoItem\"}",
+  "$comment": "{\"term\": \"CargoItem\", \"@id\": \"https://service.unece.org/trade/uncefact/vocabulary/uncefact/#ConsignmentItem\"}",
   "title": "Cargo Item",
   "description": "Addresses the cargo items to be stuffed into a container for a shipment. A cargo item cannot be split across containers.",
   "type": "object",
